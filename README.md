@@ -34,7 +34,8 @@ restaurant-menu/
 - Card-based layout for menu items
 
 ## 7. Screenshots of the Project
-(Add screenshots here if required)
+<img width="1598" height="861" alt="image" src="https://github.com/user-attachments/assets/fcd9992e-9622-4258-9210-ad19bb0d27f1" />
+
 
 ## 8. Live Project Link
 
