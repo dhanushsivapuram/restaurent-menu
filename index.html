@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Shiva Raj Restaurant</h1>
+        <p>Delicious Food Menu</p>
+    </header>
+
+    <!-- Category Filter Buttons -->
+    <section class="filter-buttons">
+        <button onclick="filterMenu('all')">All</button>
+        <button onclick="filterMenu('starters')">Starters</button>
+        <button onclick="filterMenu('main')">Main Course</button>
+        <button onclick="filterMenu('desserts')">Desserts</button>
+        <button onclick="filterMenu('beverages')">Beverages</button>
+    </section>
+
+    <!-- Menu Items -->
+    <section class="menu-container">
+
+        <!-- Starters -->
+        <div class="menu-item starters">
+            <h3>Spring Rolls</h3>
+            <p>Crispy vegetable rolls</p>
+            <span>₹120</span>
+        </div>
+
+        <div class="menu-item starters">
+            <h3>Garlic Bread</h3>
+            <p>Toasted bread with garlic butter</p>
+            <span>₹90</span>
+        </div>
+
+        <!-- Main Course -->
+        <div class="menu-item main">
+            <h3>Paneer Butter Masala</h3>
+            <p>Creamy tomato gravy with paneer</p>
+            <span>₹220</span>
+        </div>
+
+        <div class="menu-item main">
+            <h3>Veg Biryani</h3>
+            <p>Spiced rice with vegetables</p>
+            <span>₹180</span>
+        </div>
+
+        <!-- Desserts -->
+        <div class="menu-item desserts">
+            <h3>Gulab Jamun</h3>
+            <p>Sweet milk dumplings</p>
+            <span>₹80</span>
+        </div>
+
+        <div class="menu-item desserts">
+            <h3>Ice Cream</h3>
+            <p>Vanilla / Chocolate</p>
+            <span>₹70</span>
+        </div>
+
+        <!-- Beverages -->
+        <div class="menu-item beverages">
+            <h3>Lemon Juice</h3>
+            <p>Fresh lemon drink</p>
+            <span>₹50</span>
+        </div>
+
+        <div class="menu-item beverages">
+            <h3>Cold Coffee</h3>
+            <p>Chilled coffee with ice cream</p>
+            <span>₹110</span>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Shiva Raj Restaurant | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
