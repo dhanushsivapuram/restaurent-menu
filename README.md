@@ -39,7 +39,7 @@ restaurant-menu/
 ## 8. Live Project Link
 
 🔗 Live Website: https://dhanushsivapuram.github.io/restaurent-menu/ 
-💻 GitHub Repository: 
+💻 GitHub Repository: https://github.com/dhanushsivapuram?tab=repositories
 
 ## 9. Challenges Faced
 While developing this project, understanding how to connect HTML, CSS, and JavaScript for dynamic filtering was challenging. This was solved by learning DOM manipulation.
